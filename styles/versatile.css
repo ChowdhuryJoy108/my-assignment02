@@ -33,7 +33,7 @@ body {
   display: flex;
 }
 
-color-primary {
+.color-primary {
   color: rgb(230, 83, 60);
 }
 
@@ -212,6 +212,7 @@ nav {
 .teams {
   max-width: 73%;
   margin: 0 auto;
+  margin-bottom: 6.25rem;
 }
 
 .teams-content {
@@ -222,6 +223,7 @@ nav {
 .teams-content > h1{
   font-size: 3rem;
   margin: 0;
+  margin-bottom: 0.8rem;
   font-weight: 900;
 }
 
@@ -435,10 +437,73 @@ nav {
   opacity: 0.5;
 }
 
+/* footer Section style */
+footer{
+  height: 420px;
+  background: rgba(255, 255, 255, 0.1);
+}
 
+.footer-content {
+  max-width: 73%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 4rem 0 5rem 0;
+  border-bottom:2px solid rgba(255, 255, 255, 0.1);
+}
+.footer-intro {
+  max-width: 41%;
+  height: 176px;
+  text-align: left;
+}
 
+.footer-intro > h1 {
+  font-size: 4rem;
+  font-weight: 800;
+  text-align: left;
+  margin: 0;
+  margin-bottom: 1.5rem;
+}
 
+.footer-intro > p{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+ 
+.important-links{
+  gap:9.5rem;
+  align-items: center;
+}
+.service-links > h1,
+.other-links > h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
 
+.service-links > p,
+.other-links > p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+
+.reserved-text {
+  max-width: 73%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 2.25rem;
+}
+
+.reserved-text > p{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+  font-weight: 400;
+  
+}
 
 /* mobile responsive styles */
 
@@ -524,7 +589,7 @@ nav {
   }
   .join-now-image {
     max-width: fit-content;
-    margin: 0 2rem 2.18rem 2rem;
+    margin: 0 2rem 2rem 2rem;
   }
   .join-now-image img {
     height: auto;
@@ -539,6 +604,10 @@ nav {
   .teams-content {
     max-width: 100%;
     padding: 1.25rem;
+  }
+
+  .teams-content > h1{
+    font-size: 2rem;
   }
   
   .trainers{
@@ -557,6 +626,34 @@ nav {
 
   .not-to-show{
     display: none;
+  }
+
+  /* mobile responsive styles for footer */
+   footer{
+    height: 700px;
+  }
+
+  .footer-content{
+    max-width: 100%;
+    flex-direction: column;
+    padding: 0;  
+    margin: 0 1rem;
+  }
+  .footer-intro{
+    margin-top: 2.7rem;
+    margin-bottom: 1.8rem;
+    max-width: 80%;
+  }
+  .footer-intro > h1{
+    margin-bottom: 1.5rem;
+  }
+  .important-links{
+    margin-top: 1rem;
+    flex-direction: column;
+    gap: 0;
+  }
+  .reserved-text {
+    max-width: fit-content;
   }
 
 }
@@ -626,5 +723,21 @@ nav {
   .teams-content {
     max-width: 100%;
     padding: 1.25rem;
+  }
+
+  /* tablets responsive styles for footer  */
+  footer{
+    height: 700px;
+  }
+
+  .footer-content{
+    max-width: 100%;
+    flex-direction: column;
+    gap: 6rem;
+    margin-left: 1.8rem;
+  }
+  .important-links{
+    max-width: 100%;
+    justify-content: space-around;
   }
 }
