@@ -207,6 +207,44 @@ nav {
   border-radius: 1.12rem;
 }
 
+
+/* BMI intro styles */
+
+.bmi-intro {
+    max-width: 73%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+/* BMI calculator styles  */
+
+.calculator {
+  max-width: 100%;
+  background: rgb(34, 34, 34);
+}
+
+.bmi-content {
+  max-width: 73%;
+  margin: 0 auto;
+}
+
+table, tr, th, td {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+  border-collapse:collapse ;
+  text-align: left;
+}
+
+th {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+td {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+  font-weight: 400;
+}
 /* teams section styles */
 
 .teams {
