@@ -130,6 +130,7 @@ nav {
   font-size: 2.5rem;
   font-weight: 900;
   margin: 0;
+  margin-bottom: 0.8rem;
 }
 .habits-description {
   color: rgb(255, 255, 255);
@@ -152,6 +153,7 @@ nav {
 .habits-card > img {
   border-radius: 100%;
   margin-bottom: 1.8rem;
+  border: 4px solid rgb(34, 34, 34); 
 }
 .card-heading {
   margin: 0.3rem;
@@ -195,6 +197,8 @@ nav {
   font-weight: 400;
   line-height: 1.5rem;
   text-align: left;
+  margin-bottom: 2rem;
+  margin-top: 0;
 }
 .join-now-image {
   max-width: 34%;
@@ -211,23 +215,46 @@ nav {
 /* BMI intro styles */
 
 .bmi-intro {
-    max-width: 73%;
+    max-width: 47%;
     margin: 0 auto;
     text-align: left;
+}
+
+.bmi-intro-content > h1{
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  font-weight: 900;
+  margin: 0;
+}
+.bmi-intro-content > p{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+  margin: 0.8rem 0;
 }
 
 /* BMI calculator styles  */
 
 .calculator {
   max-width: 100%;
+  height: 487px;
   background: rgb(34, 34, 34);
+  margin-top: 5rem;
 }
 
 .bmi-content {
   max-width: 73%;
   margin: 0 auto;
+  padding-top:3rem ;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
+.bmi-index {
+  max-width: 40%;
+}
+.bmi-input {
+  max-width: 50%;
+}
 table, tr, th, td {
   border: 1px solid rgba(255, 255, 255, 0.1);
   padding: 1rem;
@@ -245,6 +272,72 @@ td {
   font-size: 0.8rem;
   font-weight: 400;
 }
+
+.bmi-input > p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+  margin: 0.8rem 0 2rem 0;
+}
+form {
+  width: 100%;
+  margin-bottom: 2rem;
+  /* border: 1px solid purple; */
+}
+
+.input-batch1{
+  max-width: 100%;
+  gap: 0.5rem;
+}
+
+.input-batch1 > input {
+  padding: 0.8rem 2.5rem 0.8rem 1.25rem;
+  border-radius: 0.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  width: 45%;
+  margin: 0.5rem 0.2rem 0 0;
+} 
+
+.input-batch2{
+  max-width: 100%;
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#age > input{
+  width: 74%;
+  padding: 0.8rem 2.5rem 0.8rem 1.25rem;
+  border-radius: 0.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  margin: 0.5rem 0;
+} 
+
+.input-batch2 > select{
+  /* width: 45%; */
+  padding: 0.8rem 2.5rem 0.8rem 1.25rem;
+  border-radius: 0.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: rgba(255, 255, 255, 0.3);
+  margin: 0.5rem 0;
+}
+
+.input-batch3 {
+  width: 100%;
+}
+.input-batch3 > select {
+  padding: 0.8rem 2.5rem 0.8rem 1.25rem;
+  border-radius: 0.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+
+
 /* teams section styles */
 
 .teams {
@@ -475,9 +568,13 @@ td {
   opacity: 0.5;
 }
 
+
+
+
+
 /* footer Section style */
 footer{
-  height: 420px;
+  height: 400px;
   background: rgba(255, 255, 255, 0.1);
 }
 
@@ -533,7 +630,7 @@ footer{
   max-width: 73%;
   margin: 0 auto;
   text-align: center;
-  margin-top: 2.25rem;
+  margin-top: 1.5rem;
 }
 
 .reserved-text > p{
@@ -571,7 +668,7 @@ footer{
   }
 
   .habits-heading {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .habits-description {
     padding: 0 1rem;
@@ -645,7 +742,7 @@ footer{
   }
 
   .teams-content > h1{
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   
   .trainers{
