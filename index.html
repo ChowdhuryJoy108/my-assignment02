@@ -26,8 +26,19 @@
         </nav>
        </section>
 
-       <h1>Banner section</h1>
-       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum sint magnam omnis labore accusamus dolorum rerum. Rerum eum consectetur dicta eligendi, perferendis accusantium optio laudantium voluptatibus voluptatum dolorem, temporibus accusamus tenetur animi. Hic harum libero eos unde veniam ipsa animi?</p>
+       <section class="banner">
+         <div class="banner-content">
+            <div class="banner-intro">
+
+            </div>
+            <div class="banner-image">
+                <img src="./images/banner.png" alt="">
+            </div>
+         </div>
+       </section>
+
+       <!-- <h1>Banner section</h1>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum sint magnam omnis labore accusamus dolorum rerum. Rerum eum consectetur dicta eligendi, perferendis accusantium optio laudantium voluptatibus voluptatum dolorem, temporibus accusamus tenetur animi. Hic harum libero eos unde veniam ipsa animi?</p> -->
     </header>
 
     <main> 
@@ -71,12 +82,14 @@
                 <img src="./images/jogging.jpg" alt="someone is jogging...">
             </div>
         </section>
+        
         <section class="bmi-intro ">
             <div class="bmi-intro-content">
                 <h1>BMI Calculator</h1>
                 <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
             </div>
         </section>
+
         <section class="calculator">
             <div class="bmi-content display-flex">
                 <div class="bmi-index">
@@ -128,7 +141,7 @@
                             </select>
                         </div>
                     </form>
-                    <button id="btn">Calculate</button>
+                    <button  class="calBtn">Calculate</button>
                 </div>
             </div>
         </section>
@@ -179,7 +192,71 @@
         </section>
 
         <section class="plans">
-            <h1>Our Plans</h1>
+            <h1 class="text-center">Choose Yours Pricing Plans</h1>
+
+            <div class="pricing-cards display-flex" >
+                <div class="plan-card">
+                    <div class="plan-card-intro text-center">
+                        <h1>Class Drop in </h1>
+                        <span>$ 30</span>
+                        <h4>single class</h4>
+                    </div>
+                    <div class="facility text-center">
+                        <p>Free riding</p>
+                        <p>Unlimited equipments</p>
+                        <p>Personal trainer</p>
+                        <p>Month to mouth</p>
+                        <p>No time restrictions</p>
+                    </div>
+                    <button id="Enroll-btn">Enroll Now</button>
+                </div>
+                <div class="plan-card">
+                    <div class="plan-card-intro text-center">
+                        <h1>12 Month unlimited</h1>
+                        <span>$ 100</span>
+                        <h4>single class</h4>
+                    </div>
+                    <div class="facility text-center">
+                        <p>Free riding</p>
+                        <p>Unlimited equipments</p>
+                        <p>Personal trainer</p>
+                        <p>Month to mouth</p>
+                        <p>No time restrictions</p>
+                    </div>
+                    <button id="Enroll-btn">Enroll Now</button>
+                </div>
+                <div class="plan-card">
+                    <div class="plan-card-intro text-center">
+                        <h1>6 Month unlimited</h1>
+                        <span>$ 50</span>
+                        <h4>single class</h4>
+                    </div>
+                    <div class="facility text-center">
+                        <p>Free riding</p>
+                        <p>Unlimited equipments</p>
+                        <p>Personal trainer</p>
+                        <p>Month to mouth</p>
+                        <p>No time restrictions</p>
+                    </div>
+                    <button id="Enroll-btn">Enroll Now</button>
+                </div>
+                <div class="plan-card">
+                    <div class="plan-card-intro text-center">
+                        <h1>Lifetime Member</h1>
+                        <span>$ 70</span>
+                        <h4>single class</h4>
+                    </div>
+                    <div class="facility text-center">
+                        <p>Free riding</p>
+                        <p>Unlimited equipments</p>
+                        <p>No time restrictions</p>
+                        <p>No personal trainer</p>
+                        <p>No Month to mouth</p>
+                    </div>
+                    <button id="Enroll-btn">Enroll Now</button>
+                </div>
+            </div>
+
         </section>
 
     </main>

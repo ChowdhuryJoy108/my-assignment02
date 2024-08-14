@@ -38,7 +38,7 @@ body {
 }
 
 .text-center {
-    text-align: center;
+  text-align: center;
 }
 
 #btn {
@@ -112,6 +112,11 @@ nav {
   text-align: left;
 }
 
+
+/* banner section styles starts here  */
+
+
+
 /* habits section styles here */
 .habits {
   max-width: 72%;
@@ -153,7 +158,7 @@ nav {
 .habits-card > img {
   border-radius: 100%;
   margin-bottom: 1.8rem;
-  border: 4px solid rgb(34, 34, 34); 
+  border: 4px solid rgb(34, 34, 34);
 }
 .card-heading {
   margin: 0.3rem;
@@ -211,22 +216,21 @@ nav {
   border-radius: 1.12rem;
 }
 
-
 /* BMI intro styles */
 
 .bmi-intro {
-    max-width: 47%;
-    margin: 0 auto;
-    text-align: left;
+  max-width: 47%;
+  margin: 0 auto;
+  text-align: left;
 }
 
-.bmi-intro-content > h1{
+.bmi-intro-content > h1 {
   color: rgb(255, 255, 255);
   font-size: 3rem;
   font-weight: 900;
   margin: 0;
 }
-.bmi-intro-content > p{
+.bmi-intro-content > p {
   color: rgba(255, 255, 255, 0.5);
   font-size: 0.8rem;
   margin: 0.8rem 0;
@@ -238,13 +242,13 @@ nav {
   max-width: 100%;
   height: 487px;
   background: rgb(34, 34, 34);
-  margin-top: 5rem;
+  margin: 5rem 0;
 }
 
 .bmi-content {
   max-width: 73%;
   margin: 0 auto;
-  padding-top:3rem ;
+  padding-top: 3rem;
   justify-content: space-between;
   align-items: flex-start;
 }
@@ -255,10 +259,13 @@ nav {
 .bmi-input {
   max-width: 50%;
 }
-table, tr, th, td {
+table,
+tr,
+th,
+td {
   border: 1px solid rgba(255, 255, 255, 0.1);
   padding: 1rem;
-  border-collapse:collapse ;
+  border-collapse: collapse;
   text-align: left;
 }
 
@@ -281,10 +288,9 @@ td {
 form {
   width: 100%;
   margin-bottom: 2rem;
-  /* border: 1px solid purple; */
 }
 
-.input-batch1{
+.input-batch1 {
   max-width: 100%;
   gap: 0.5rem;
 }
@@ -296,25 +302,25 @@ form {
   border: none;
   width: 45%;
   margin: 0.5rem 0.2rem 0 0;
-} 
+}
 
-.input-batch2{
+.input-batch2 {
   max-width: 100%;
   display: grid;
   gap: 0.5rem;
   grid-template-columns: repeat(2, 1fr);
 }
 
-#age > input{
+#age > input {
   width: 74%;
   padding: 0.8rem 2.5rem 0.8rem 1.25rem;
   border-radius: 0.5rem;
   background: rgba(255, 255, 255, 0.1);
   border: none;
   margin: 0.5rem 0;
-} 
+}
 
-.input-batch2 > select{
+.input-batch2 > select {
   /* width: 45%; */
   padding: 0.8rem 2.5rem 0.8rem 1.25rem;
   border-radius: 0.5rem;
@@ -336,6 +342,20 @@ form {
   color: rgba(255, 255, 255, 0.3);
 }
 
+.calBtn {
+  padding: 1rem  2.5rem;
+  background-color: rgb(230, 83, 60);
+  color: rgba(255, 255, 255);
+  border-radius: 2.625rem;
+  border: none;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.3rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+
 
 
 /* teams section styles */
@@ -351,14 +371,14 @@ form {
   margin: 0 auto;
 }
 
-.teams-content > h1{
+.teams-content > h1 {
   font-size: 3rem;
   margin: 0;
   margin-bottom: 0.8rem;
   font-weight: 900;
 }
 
-.teams-content > p{
+.teams-content > p {
   font-size: 0.8rem;
   font-weight: 400;
   line-height: 1.5rem;
@@ -367,43 +387,43 @@ form {
   margin-bottom: 3rem;
 }
 
-
 .trainers {
-    height: 570px;
-    border-radius: 1.12rem;
-    background: rgba(255, 255, 255, 0.1);
-    padding:1.25rem;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.25rem 1.25rem;
+  height: 570px;
+  border-radius: 1.12rem;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1.25rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem 1.25rem;
 }
 .trainer1 {
-    position: relative;
-    max-width: 330px;
-    height: 272px;
-    background:url("../images/trainer1.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 1.12rem;
-    background-blend-mode: overlay;
-    opacity: 0.8;
+  position: relative;
+  max-width: 330px;
+  height: 272px;
+  background: url("../images/trainer1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 1.12rem;
+  background-blend-mode: overlay;
+  opacity: 0.8;
 }
 
-.trainer1-info{
-    position: absolute;
-    bottom: 0;
-    padding: 1.12rem;
-    z-index: 1;
+.trainer1-info {
+  position: absolute;
+  bottom: 0;
+  padding: 1.12rem;
+  z-index: 1;
 }
 
-.trainer1-info h4,p{
-    margin: 0;
+.trainer1-info h4,
+p {
+  margin: 0;
 }
-.trainer1-info h4{
+.trainer1-info h4 {
   font-size: 1.25rem;
 }
-.trainer1-info p{
+.trainer1-info p {
   font-size: 0.8rem;
   opacity: 0.5;
 }
@@ -412,7 +432,7 @@ form {
   position: relative;
   max-width: 330px;
   height: 275px;
-  background:url("../images/trainer2.png");
+  background: url("../images/trainer2.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -421,20 +441,21 @@ form {
   opacity: 0.8;
 }
 
-.trainer2-info{
+.trainer2-info {
   position: absolute;
   bottom: 0;
   padding: 1.12rem;
   z-index: 1;
 }
 
-.trainer2-info h4,p{
+.trainer2-info h4,
+p {
   margin: 0;
 }
-.trainer2-info h4{
+.trainer2-info h4 {
   font-size: 1.25rem;
 }
-.trainer2-info p{
+.trainer2-info p {
   font-size: 0.8rem;
   opacity: 0.5;
 }
@@ -442,7 +463,7 @@ form {
   position: relative;
   max-width: 330px;
   height: 275px;
-  background:url("../images/trainer3.png");
+  background: url("../images/trainer3.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -451,21 +472,22 @@ form {
   opacity: 0.8;
 }
 
-.trainer3-info{
+.trainer3-info {
   position: absolute;
   bottom: 0;
   padding: 1.12rem;
   z-index: 1;
 }
 
-.trainer3-info h4,p{
+.trainer3-info h4,
+p {
   margin: 0;
 }
 
-.trainer3-info h4{
+.trainer3-info h4 {
   font-size: 1.25rem;
 }
-.trainer3-info p{
+.trainer3-info p {
   font-size: 0.8rem;
   opacity: 0.5;
 }
@@ -474,7 +496,7 @@ form {
   position: relative;
   max-width: 330px;
   height: 275px;
-  background:url("../images/trainer4.png");
+  background: url("../images/trainer4.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -483,21 +505,22 @@ form {
   opacity: 0.8;
 }
 
-.trainer4-info{
+.trainer4-info {
   position: absolute;
   bottom: 0;
   padding: 1.12rem;
   z-index: 1;
 }
 
-.trainer4-info h4,p{
+.trainer4-info h4,
+p {
   margin: 0;
 }
 
-.trainer4-info h4{
+.trainer4-info h4 {
   font-size: 1.25rem;
 }
-.trainer4-info p{
+.trainer4-info p {
   font-size: 0.8rem;
   opacity: 0.5;
 }
@@ -506,7 +529,7 @@ form {
   position: relative;
   max-width: 330px;
   height: 275px;
-  background:url("../images/trainer5.png");
+  background: url("../images/trainer5.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -515,22 +538,23 @@ form {
   opacity: 0.8;
 }
 
-.trainer5-info{
+.trainer5-info {
   position: absolute;
   bottom: 0;
   padding: 1.12rem;
   z-index: 1;
 }
 
-.trainer5-info h4,p{
+.trainer5-info h4,
+p {
   margin: 0;
 }
 
-.trainer5-info h4{
+.trainer5-info h4 {
   font-size: 1.25rem;
 }
 
-.trainer5-info p{
+.trainer5-info p {
   font-size: 0.8rem;
   opacity: 0.5;
 }
@@ -539,7 +563,7 @@ form {
   position: relative;
   max-width: 330px;
   height: 275px;
-  background:url("../images/trainer6.png");
+  background: url("../images/trainer6.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -548,32 +572,95 @@ form {
   opacity: 0.8;
 }
 
-.trainer6-info{
+.trainer6-info {
   position: absolute;
   bottom: 0;
   padding: 1.12rem;
   z-index: 1;
 }
 
-.trainer6-info h4,p{
+.trainer6-info h4,
+p {
   margin: 0;
 }
 
-.trainer6-info h4{
+.trainer6-info h4 {
   font-size: 1.25rem;
 }
 
-.trainer6-info p{
+.trainer6-info p {
   font-size: 0.8rem;
   opacity: 0.5;
 }
 
 
+/* plans section styles */
 
+.plans {
+  max-width: 73%;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+}
 
+.plans > h1 {
+  font-size: 3rem;
+}
+.pricing-cards {
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.plan-card {
+  width: 100%;
+  height: 300px;
+  background: rgb(34, 34, 34);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem 0;
+  border-radius: 0.5rem;
+}
+
+.plan-card-intro > h1 {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+.plan-card-intro span {
+  font-size: 2.5rem;
+  color: rgb(230, 83, 60);
+  font-weight: 900;
+}
+.plan-card-intro h4 {
+  margin: 1rem 3rem;
+  padding: 0.5rem 0;
+  background-color: rgb(230, 83, 60, 0.2);
+  border-radius: 1rem;
+}
+
+.facility p {
+  font-size: 0.8rem;
+  opacity: 0.5;
+  margin-top: 0.2rem;
+}
+
+#Enroll-btn {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0.8rem;
+  text-align: center;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  border: none;
+  color: white;
+  background-color: rgb(230, 83, 60);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
 
 /* footer Section style */
-footer{
+footer {
   height: 400px;
   background: rgba(255, 255, 255, 0.1);
 }
@@ -584,7 +671,7 @@ footer{
   justify-content: space-between;
   align-items: flex-start;
   padding: 4rem 0 5rem 0;
-  border-bottom:2px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
 }
 .footer-intro {
   max-width: 41%;
@@ -600,16 +687,16 @@ footer{
   margin-bottom: 1.5rem;
 }
 
-.footer-intro > p{
+.footer-intro > p {
   color: rgba(255, 255, 255, 0.5);
   font-size: 0.8rem;
   font-weight: 400;
   line-height: 24px;
   text-align: left;
 }
- 
-.important-links{
-  gap:9.5rem;
+
+.important-links {
+  gap: 9.5rem;
   align-items: center;
 }
 .service-links > h1,
@@ -633,18 +720,17 @@ footer{
   margin-top: 1.5rem;
 }
 
-.reserved-text > p{
+.reserved-text > p {
   color: rgba(255, 255, 255, 0.5);
   font-size: 0.8rem;
   font-weight: 400;
-  
 }
 
 /* mobile responsive styles */
 
 @media screen and (max-width: 576px) {
   /* mobile Responsive styles for headers */
-  .nav{
+  .nav {
     max-width: 100%;
     padding: 1.25rem;
   }
@@ -715,7 +801,7 @@ footer{
     margin-bottom: 0.8rem;
     margin-top: 0.8rem;
   }
-  .join-description{
+  .join-description {
     margin-bottom: 1.5rem;
   }
 
@@ -730,22 +816,126 @@ footer{
     height: auto;
   }
 
+
+  /* mobile responsive styles for BMI intro section */
+   
+  .bmi-intro {
+    max-width:90%;
+    text-align: left;
+  }
+  
+  .bmi-intro-content > h1 {
+    font-size: 2rem;
+  }
+
+  /* mobile responsive style for BMI section */
+
+
+  .calculator {
+    height: 772px;
+    margin-top: 2rem;
+  }
+
+  .bmi-content {
+    max-width: 90%;
+    flex-direction: column;
+    padding: 0.5rem;
+  }
+  
+  .bmi-index {
+    max-width: 100%;
+    margin-bottom: 2.6rem;
+  }
+
+  .bmi-input {
+    max-width: 100%;
+  }
+
+  .bmi-input > h1,
+  .bmi-index > h1 {
+      font-size: 1rem;
+  }
+ 
+  .bmi-input > p {
+    font-size: 0.8rem;
+  }
+
+  table,
+  tr,
+  th,
+  td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 1rem;
+    border-collapse: collapse;
+    text-align: left;
+  }
+  
+  th {
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+  
+  td {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+  
+  .bmi-input > p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8rem;
+    margin: 0.8rem 0 2rem 0;
+  }
+
+
+  
+  .input-batch2 {
+    max-width: 100%;
+  }
+  
+  #age > input {
+    width: 45%;
+  }
+  
+  .input-batch2 > select {
+    width: 45%;
+  }
+  
+  .input-batch3 {
+    width: 100%;
+  }
+  .input-batch3 > select {
+    width: 100%;;
+  }
+
+  .bmi-input button {
+    width: 50%;
+  }
+
+  .calBtn {
+    padding: 1rem 2rem;
+    text-align: center;
+  }
+
+
   /* mobile responsive style for teams section */
+
   .teams {
     max-width: 100%;
     padding: 1.25rem;
+    margin-bottom: 2rem;
   }
-  
+
   .teams-content {
     max-width: 100%;
     padding: 1.25rem;
   }
 
-  .teams-content > h1{
+  .teams-content > h1 {
     font-size: 1.5rem;
   }
-  
-  .trainers{
+
+  .trainers {
     height: 1188px;
     grid-template-columns: repeat(1, 1fr);
   }
@@ -759,30 +949,65 @@ footer{
     max-width: 100%;
   }
 
-  .not-to-show{
+  .not-to-show {
     display: none;
   }
 
-  /* mobile responsive styles for footer */
-   footer{
+
+  /* mobile responsive styles for plan section */
+
+
+  
+  .plans {
+    max-width: 90%;
+    margin-bottom: 2rem;
+  }
+  
+  .plans > h1 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  .pricing-cards {
+    flex-direction: column;
+  }
+  
+  
+  .plan-card-intro > h1 {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+  }
+  .plan-card-intro span {
+    font-size: 3rem;
+  }
+  .plan-card-intro h4 {
+    margin: 1rem 3rem;
+    padding: 0.5rem 0;
+    background-color: rgb(230, 83, 60, 0.2);
+    border-radius: 1rem;
+  }
+
+
+  /* mobile responsive styles for footer section*/
+
+  footer {
     height: 700px;
   }
 
-  .footer-content{
+  .footer-content {
     max-width: 100%;
     flex-direction: column;
-    padding: 0;  
+    padding: 0;
     margin: 0 1rem;
   }
-  .footer-intro{
+  .footer-intro {
     margin-top: 2.7rem;
     margin-bottom: 1.8rem;
     max-width: 80%;
   }
-  .footer-intro > h1{
+  .footer-intro > h1 {
     margin-bottom: 1.5rem;
   }
-  .important-links{
+  .important-links {
     margin-top: 1rem;
     flex-direction: column;
     gap: 0;
@@ -790,12 +1015,7 @@ footer{
   .reserved-text {
     max-width: fit-content;
   }
-
 }
-
-
-
-
 
 /* tablet responsive styles */
 
@@ -810,6 +1030,7 @@ footer{
   }
 
   /* tablets responsive styles for habits section */
+
   .habits {
     max-width: fit-content;
   }
@@ -835,7 +1056,9 @@ footer{
     border-radius: 100%;
     margin-bottom: 1.8rem;
   }
+
   /* tablets responsive styles for join-now section */
+
   .join-now {
     max-width: fit-content;
     margin: 0 1.25rem;
@@ -848,30 +1071,63 @@ footer{
   .join-description {
     margin-bottom: 1.5rem;
   }
+
   /* tablets responsive styles for teams section */
 
   .teams {
     max-width: 100%;
     padding: 1.25rem;
   }
-  
+
   .teams-content {
     max-width: 100%;
     padding: 1.25rem;
   }
 
+
+    /* tablets responsive styles for plan section */
+
+    .plans {
+      max-width: 90%;
+      margin-bottom: 2rem;
+    }
+    
+    .plans > h1 {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+    .pricing-cards {
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+    }
+    
+    
+    .plan-card-intro > h1 {
+      font-size: 1.5rem;
+      margin: 0.5rem 0;
+    }
+    .plan-card-intro span {
+      font-size: 3rem;
+    }
+    .plan-card-intro h4 {
+      margin: 1rem 3rem;
+      padding: 0.5rem 0;
+      background-color: rgb(230, 83, 60, 0.2);
+      border-radius: 1rem;
+    }
+
   /* tablets responsive styles for footer  */
-  footer{
+  footer {
     height: 700px;
   }
 
-  .footer-content{
+  .footer-content {
     max-width: 100%;
     flex-direction: column;
     gap: 6rem;
     margin-left: 1.8rem;
   }
-  .important-links{
+  .important-links {
     max-width: 100%;
     justify-content: space-around;
   }
