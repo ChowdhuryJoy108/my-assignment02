@@ -1,6 +1,9 @@
 /* google font imported */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+                
 /* applying the font */
 
 .inter-normal {
@@ -115,7 +118,151 @@ nav {
 
 /* banner section styles starts here  */
 
+.banner {
+  width: 73%;
+  margin: 0 auto;
+}
+.banner-content {
+  align-items: center;
+  justify-content: space-between;
+  
+}
 
+.banner-intro {
+  width: 50%;
+}
+.banner-intro-desc {
+  width: 100%;
+}
+.banner-intro-desc > h1 {
+  font-size: 4.87rem;
+  font-weight: 900;
+  line-height: 100%;
+  text-align: left;
+  margin: 0;
+  margin-bottom: 1.7rem;
+}
+.banner-intro-desc > p {
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  opacity: 0.5;
+  margin-bottom: 1.7rem;
+}
+
+#style-shape {
+  font-family: 'Miama', sans-serif;  
+  font-size: 9.87rem;
+  font-weight: 400;
+                                      
+}
+
+#join-btn {
+  padding: 1rem 2.5rem 1rem 2.5rem;
+  background-color:rgb(230, 83, 60);
+  color: rgba(255, 255, 255);
+  border-radius: 2.625rem;
+  border: none;
+  font-size: 1.12rem;
+  font-weight: 600;
+  line-height: 1.3rem;
+  border-radius: 2.6rem;
+  margin-right: 0.8rem;
+}
+
+#download-btn{
+  padding: 1rem 2.5rem 1rem 2.5rem;
+  background-color: rgb(34, 34, 34);
+  color: rgba(255, 255, 255);
+  border-radius: 2.625rem;
+  border: none;
+  font-size: 1.12rem;
+  font-weight: 600;
+  line-height: 1.3rem;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 2.6rem;
+
+}
+
+
+/* banner photo styles  */
+
+.banner-image {
+  position: relative;
+}
+
+.div1 {
+  width: 180px;
+  height: 88px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1rem 1.4rem;
+  position: absolute;
+  top: 20%;
+  right: -10%;
+}
+
+.div1 > h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 2.5rem;
+  text-align: left;
+}
+.div1 > h1,p ,
+.div2-desc > h1, p {
+  margin: 0;
+}
+
+.div1 > p {
+  font-family: Inter;
+  font-size: 0.7rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  text-align: left;
+  opacity: 0.65;
+
+}
+
+.div2 {
+  align-items: center;
+  width: 180px;
+  height: 88px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.1);
+  position: absolute;
+  bottom: 12%;
+  left: -22%;
+}
+.circle {
+  width: 40px;
+  height: 40px;
+  background: rgb(230, 83, 60);
+  border-radius: 50%;
+  position: relative;
+  margin: 0 1rem;
+  
+}
+
+#play-icon {
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  display: none;
+}
+
+.div2-desc >  p {
+  font-family: Inter;
+  font-size: 0.7rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+  text-align: left;
+  opacity: 0.65;
+}
 
 /* habits section styles here */
 .habits {
@@ -726,6 +873,14 @@ footer {
   font-weight: 400;
 }
 
+
+
+
+
+
+
+
+
 /* mobile responsive styles */
 
 @media screen and (max-width: 576px) {
@@ -742,6 +897,172 @@ footer {
     display: block;
   }
 
+
+  /* mobile responsive styles for banner section */
+
+  .banner {
+    width: 90%;
+    margin: 0;
+  }
+  .banner-content {
+    width: 100%;
+    flex-direction: column;
+    padding: 1.25rem;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .banner-intro {
+    width: 100%;
+  }
+  .banner-intro-desc {
+    width: 100%;
+  }
+
+.banner-intro-desc > h1 {
+    font-size: 2.87rem;
+    margin: 0;
+  }
+.banner-intro-desc > p {
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    opacity: 0.5;
+    margin-bottom: 1.7rem;
+  }
+  
+  #style-shape {
+    font-family: 'Miama', sans-serif;  
+    font-size: 4.87rem;
+    font-weight: 400;
+                                        
+  }
+  .button-batch {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+  #join-btn {
+    width: 50%;
+    padding: 1rem ;
+    background-color:rgb(230, 83, 60);
+    color: rgba(255, 255, 255);
+    border-radius: 2.625rem;
+    border: none;
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 1.3rem;
+    border-radius: 2.6rem;
+    margin-right: 0.5rem;
+  }
+  
+  #download-btn{
+    width: 50%;
+    padding: 1rem;
+    background-color: rgb(34, 34, 34);
+    color: rgba(255, 255, 255);
+    border-radius: 2.625rem;
+    border: none;
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 1.3rem;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 2.6rem;
+  
+  }
+  
+  
+  /* banner photo styles  */
+  
+  .banner-image {
+    width: 100%;
+    position: relative;
+    margin-left: 1.5rem;
+  }
+  .banner-image img {
+    width: 280px;
+    height: 500px;
+  }
+  
+  .div1 {
+    width: 130px;
+    height: 70px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0.5rem 0.5rem;
+    position: absolute;
+    top: 10%;
+    right: 0%;
+  }
+  
+  .div1 > h1 {
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 2rem;
+    
+  }
+  .div1 > h1,p ,
+  .div2-desc > h1, p {
+    margin: 0;
+  }
+  
+  .div1 > p {
+    font-family: Inter;
+    font-size: 0.7rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    text-align: left;
+    opacity: 0.65;
+  
+  }
+  
+  .div2 {
+    align-items: center;
+    width: 150px;
+    height: 80px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1rem 0.2rem;
+    position: absolute;
+    bottom: 41%;
+    left: 0%;
+    
+  }
+  .circle {
+    width: 35px;
+    height: 35px;
+    background: rgb(230, 83, 60);
+    border-radius: 50%;
+    position: relative;
+    margin: 0 1rem;
+    
+  }
+  
+  #play-icon {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    display: block;
+  }
+  
+  .div2-desc >  h1 {
+    font-size: 1.5rem;
+  }
+  .div2-desc >  p {
+    font-family: Inter;
+    font-size: 0.5rem;
+    font-weight: 400;
+    line-height: 1rem;
+    text-align: left;
+    opacity: 0.65;
+  }
   /* mobile responsive styles for habits section */
 
   .habits {
